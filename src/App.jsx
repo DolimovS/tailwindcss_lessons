@@ -20,7 +20,7 @@ const App = () => {
     },
   ]
   return (
-    <div className=" flex flex-col  gap-y-5 bg-gray-950 p-1">
+    <div className=" flex flex-col  gap-y-5 bg-gray-950 p-1  pb-50">
       <h1 className="text-3xl">Tailwind css</h1>
       <button className="bg-indigo-500 rounded-xl   p-2 hover:bg-indigo-800 hover:cursor-pointer">hover</button>
 
@@ -163,6 +163,76 @@ const App = () => {
           <img className="w-70 h-50 rounded-2xl float-start  "  src={img} alt="" />
           <p className="text-amber-50  font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ad pariatur nihil aliquid magnam ex expedita dolores, soluta esse, optio ipsam laboriosam numquam nam est voluptatem inventore totam commodi mollitia veniam dignissimos. Adipisci voluptatem maiores nulla sequi obcaecati iste blanditiis et. Voluptas cupiditate reprehenderit dolor, dolore incidunt eaque omnis nobis odit eum numquam cumque iste assumenda amet animi ipsa itaque natus sunt vel laborum libero tempora. Ducimus, veniam dolorum cupiditate, animi nihil consequuntur facere reprehenderit architecto quo doloremque delectus a! Deserunt, sunt? Cumque hic sunt cupiditate eos eum nulla corporis eius tempore et ipsam, minus neque recusandae accusamus voluptatem, facere reiciendis expedita veniam. Perspiciatis voluptatum deleniti dolore aperiam repellat eius veritatis quas ullam, voluptatem, ratione neque. Dolor iusto unde et atque illo iste, eaque, natus molestias aliquam esse consequuntur? Nihil assumenda blanditiis magnam rem reiciendis harum, pariatur velit est doloribus in labore eos sunt numquam natus, maiores veritatis. Facere, id.</p>
         </article>
+
+        {/* object  */}
+
+          <img className="w-200 h-100 rounded-2xl border-2 border-red-600 object-fill" src={img} alt="" />
+
+          <img className="size-24 object-contain object-bottom border-2 border-red-600"  src={img} alt="" />
+
+          <div className="w-150 h-40 m-auto flex gap-4 items-center rounded-2xl overflow-hidden  object-fill bg-gray-800 " >
+            <img className="w-65 h-65 rounded-full    " src={img} alt="" />
+            <div>
+
+              <div className="gap-4 text-2xl font-semibold text-white ">
+                <p>Dilimov</p>
+                <p className="text-gray-400">Samandar</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="gap-4  md:w-150  mg:h-130 md:flex-col
+          bg-gray-900 m-auto rounded-2xl  overflow-auto divide-y divide-white/10 w-300 h-50 flex ">
+
+            <div className="p-5 gap-3 md:flex   md:items-center text-gray-400 font-medium  flex-col  ">
+              <img className="w-20 h-20 rounded-full " src={img} alt="" />
+              <div>
+                <p>Dolimov Lorem, ipsum dolor.</p>
+                <p>Samandar Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+             <div className="p-5 gap-3 flex items-center text-gray-400 font-medium  ">
+              <img className="w-20 h-20 rounded-full " src={img} alt="" />
+              <div>
+                <p>Dolimov Lorem, ipsum dolor.</p>
+                <p>Samandar Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+             <div className="p-5 gap-3 flex items-center text-gray-400 font-medium  ">
+              <img className="w-20 h-20 rounded-full " src={img} alt="" />
+              <div>
+                <p>Dolimov Lorem, ipsum dolor.</p>
+                <p>Samandar Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+             <div className="p-5 gap-3 flex items-center text-gray-400 font-medium  ">
+              <img className="w-20 h-20 rounded-full " src={img} alt="" />
+              <div>
+                <p>Dolimov Lorem, ipsum dolor.</p>
+                <p>Samandar Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+
+             <div className="p-5 gap-3 flex items-center text-gray-400 font-medium  ">
+              <img className="w-20 h-20 rounded-full " src={img} alt="" />
+              <div>
+                <p>Dolimov Lorem, ipsum dolor.</p>
+                <p>Samandar Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div  className=" overscroll-y-contain bg-gray-800 rounded-2xl p-8 w-200 h-70  m-auto   text-white">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cum animi quos dolorem excepturi. Commodi quis dolorum libero provident molestias voluptatum cum enim deleniti ducimus ad natus suscipit, amet odio hic magnam non, nihil aspernatur magni sint veritatis explicabo dignissimos. Laboriosam, inventore fuga eum tempora, placeat doloribus porro alias natus magni dignissimos a illum dolor provident delectus nihil, dolorum est tenetur exercitationem in accusantium vero eos eveniet assumenda omnis! Vitae accusamus facilis consequatur? Cupiditate quisquam libero laudantium est sit quaerat veniam atque possimus corporis, tempore a aperiam id ratione repellendus sapiente laborum minima magnam quis consequuntur asperiores fuga velit. Eius omnis eaque aperiam nihil officiis iure incidunt. Ducimus minus impedit aperiam libero dolorum nisi facere nemo at doloribus ex\
+            exercitationem magni officia voluptatem ab totam, tempora cupiditate odit aliquam tenetur nihil eum inventore corporis. Dolore laborum quam libero. Corporis, pariatur recusandae. Numquam tempore, earum itaque necessitatibus distinctio dolorem accusantium pariatur ipsa sint eaque nisi animi, odit fugiat, doloribus error porro autem. Non veniam ab rem sed consequatur quo autem, consectetur amet aspernatur modi exercitationem assumenda ducimus delectus tempora qui numquam quis explicabo nulla laboriosam totam vitae iusto cumque cupiditate. Distinctio soluta labore aspernatur? Nemo, officiis totam est dignissimos maxime unde.
+          </div>
     </div>
   )
 }
