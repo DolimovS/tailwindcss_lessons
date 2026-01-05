@@ -243,6 +243,74 @@ const App = () => {
             <div className="absolute top-10 left-70 w-20 bg-amber-600  h-20"></div>
             <div className="absolute top-10 left-30 w-20 bg-amber-600  h-20"></div>
           </div>
+
+
+          <div className=" relative w-100 h-200  p-2 m-auto bg-amber-800 flex flex-col overflow-auto  gap-2 divide divide-white/10 ">
+            <p className="sticky top-0 right-0 w-full  p-2 bg-gray-900  text-stone-200">A</p>
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+
+            <p className="sticky top-0 right-0 w-full  p-2 bg-gray-900  text-stone-200">B</p>
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+
+            <p className="sticky top-0 right-0 w-full  p-2 bg-gray-900  text-stone-200">C</p>
+
+
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+            <div className="flex p-5 text-white font-bold  bg-gray-800 rounded-3xl items-center justifyt-center gap-10 ">
+              <img className="size-20 rounded-full" src={img} alt="" />
+              <p >Dolimov</p>
+            </div>
+          </div>
     </div>
   )
 }
