@@ -229,9 +229,19 @@ const App = () => {
 
 
 
-          <div  className=" overscroll-y-contain bg-gray-800 rounded-2xl p-8 w-200 h-70  m-auto   text-white">
+          <div  className=" overscroll-y-contain bg-gray-800 rounded-2xl p-8 w-200 h-70  m-auto overflow-auto   text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cum animi quos dolorem excepturi. Commodi quis dolorum libero provident molestias voluptatum cum enim deleniti ducimus ad natus suscipit, amet odio hic magnam non, nihil aspernatur magni sint veritatis explicabo dignissimos. Laboriosam, inventore fuga eum tempora, placeat doloribus porro alias natus magni dignissimos a illum dolor provident delectus nihil, dolorum est tenetur exercitationem in accusantium vero eos eveniet assumenda omnis! Vitae accusamus facilis consequatur? Cupiditate quisquam libero laudantium est sit quaerat veniam atque possimus corporis, tempore a aperiam id ratione repellendus sapiente laborum minima magnam quis consequuntur asperiores fuga velit. Eius omnis eaque aperiam nihil officiis iure incidunt. Ducimus minus impedit aperiam libero dolorum nisi facere nemo at doloribus ex\
             exercitationem magni officia voluptatem ab totam, tempora cupiditate odit aliquam tenetur nihil eum inventore corporis. Dolore laborum quam libero. Corporis, pariatur recusandae. Numquam tempore, earum itaque necessitatibus distinctio dolorem accusantium pariatur ipsa sint eaque nisi animi, odit fugiat, doloribus error porro autem. Non veniam ab rem sed consequatur quo autem, consectetur amet aspernatur modi exercitationem assumenda ducimus delectus tempora qui numquam quis explicabo nulla laboriosam totam vitae iusto cumque cupiditate. Distinctio soluta labore aspernatur? Nemo, officiis totam est dignissimos maxime unde.
+          </div>
+
+
+          {/* position */}
+
+
+          <div className="relative w-300 h-100 bg-gray-800  m-auto  ">
+            <div className="absolute -top-10 left-10 w-20 bg-amber-600  h-20"></div>
+            <div className="absolute top-10 left-70 w-20 bg-amber-600  h-20"></div>
+            <div className="absolute top-10 left-30 w-20 bg-amber-600  h-20"></div>
           </div>
     </div>
   )
