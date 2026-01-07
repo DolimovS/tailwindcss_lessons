@@ -311,6 +311,18 @@ const App = () => {
               <p >Dolimov</p>
             </div>
           </div>
+
+
+
+          <div className="grid grid-cols-6   w-200 m-auto bg-gray-800 gap-10 p-5 rounded-2xl">
+            <div className="bg-gray-600 col-span-4 col-start-2 h-20"></div>
+            <div className="bg-gray-600 h-20 col-start-1 col-span-2"></div>
+            <div className="bg-gray-600 h-20 col-start-5 col-span-2"></div>
+            <div className="bg-gray-600 h-20 col-span-6"></div>
+            <div className="bg-gray-600 h-20 col-span-2"></div>
+            <div className="bg-gray-600 h-20 col-span-2"></div>
+            <div className="bg-gray-600 h-20 col-span-2"></div>
+          </div>
     </div>
   )
 }
