@@ -323,6 +323,11 @@ const App = () => {
             <div className="bg-gray-600 h-20 col-span-2"></div>
             <div className="bg-gray-600 h-20 col-span-2"></div>
           </div>
+
+
+          <p className="truncate text-white">Lorem ipsum dolor sit amet. cls</p>
+
+          <p className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold  text-transparent">Dolimov Samandar</p>
     </div>
   )
 }
