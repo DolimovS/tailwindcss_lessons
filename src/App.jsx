@@ -344,6 +344,15 @@ const App = () => {
             <button className="px-5 py-3 bg-blue-500 rounded-xl  text-white font-bold font-mono shadow-lg shadow-blue-500/50">Subscribe</button>
             <button className="px-5 py-3 bg-indigo-500 rounded-xl  text-white font-bold font-mono shadow-lg shadow-indigo-500/50">Subscribe</button>
           </div>
+        <div className="bg-white m-auto">
+          <p className=" font-bold  font-sans font-stretch-50% text-shadow-lg/30  text-xl text-amber-100 ">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+
+        <div className="flex justify-center items-center bg-gray-800 w-200 h-50 m-auto -space-x-10">
+          <div className="w-30 h-30 rounded-full bg-red-500 mix-blend-multiply "></div>
+          <div className="w-30 h-30 rounded-full bg-blue-500 mix-blend-multiply"></div>
+        </div>
+
     </div>
   )
 }
