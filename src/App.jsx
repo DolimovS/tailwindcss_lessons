@@ -328,6 +328,22 @@ const App = () => {
           <p className="truncate text-white">Lorem ipsum dolor sit amet. cls</p>
 
           <p className="bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold  text-transparent">Dolimov Samandar</p>
+
+
+
+        <div className="inline">
+          <div className="px-5 py-3 cursor-pointer outline-2 outline-offset-2  outline-red-600 inline-block  bg-gray-900 rounded-2xl text-white text-2xl">
+            Button
+          </div>
+        </div>
+
+            <input type="text" className="text-xl ml-3  border-b-4 border-[#7f848a] text-[#7f848a] focus:border-indigo-600 p-3 w-100 focus:outline-hidden bg-gray-700" placeholder="lastname" />
+
+          <div className="flex gap-5">
+            <button className="px-5 py-3 bg-cyan-500 rounded-xl  text-white font-bold font-mono shadow-lg shadow-cyan-500/50">Subscribe</button>
+            <button className="px-5 py-3 bg-blue-500 rounded-xl  text-white font-bold font-mono shadow-lg shadow-blue-500/50">Subscribe</button>
+            <button className="px-5 py-3 bg-indigo-500 rounded-xl  text-white font-bold font-mono shadow-lg shadow-indigo-500/50">Subscribe</button>
+          </div>
     </div>
   )
 }
