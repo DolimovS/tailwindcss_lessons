@@ -238,7 +238,7 @@ const App = () => {
       {/* position */}
 
 
-      <div className="relative w-300 h-100 bg-gray-800  m-auto  ">
+      <div className="relative w-200 h-100 bg-gray-800  m-auto  ">
         <div className="absolute -top-10 left-10 w-20 bg-amber-600  h-20"></div>
         <div className="absolute top-10 left-70 w-20 bg-amber-600  h-20"></div>
         <div className="absolute top-10 left-30 w-20 bg-amber-600  h-20"></div>
@@ -365,7 +365,34 @@ const App = () => {
           Processing...
         </button>
 
+
+        <span className="relative  flex  size-3">
+          <span className="absolute inline-flex h-full w-full  animate-ping  rounded-full bg-sky-400  opacity-75"></span>
+          <span className="relative inline-flex  size-3  rounded-full bg-sky-500 "></span>
+        </span>
+
+        <div className=" w-10 h-10  transform  animate-bounce rotate-90 rounded-full border flex items-center justify-center border-gray-600 bg-gray-900">
+          <span className="ml-1 h-1 w-5 bg-blue-800"></span>
+          <span className="h-4 w-4 border-3 border-t-transparent border-r-transparent transform rotate-225 -translate-x-4 border-blue-800"></span>
+        </div>
+
       </div>
+
+
+    <div
+  className="flex snap-x snap-mandatory overflow-x-auto w-[768px] h-[300px] p-5 m-auto bg-gray-800 gap-5 rounded-2xl"
+>
+  {[1,2,3,4,5,6].map((_, i) => (
+    <div key={i} className="snap-start shrink-0">
+      <img
+        src={img}
+        alt=""
+        className="w-[400px] h-[200px] rounded-2xl object-cover"
+      />
+    </div>
+  ))}
+</div>
+
 
     </div>
   )
